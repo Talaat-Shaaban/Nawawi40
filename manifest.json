@@ -8,8 +8,7 @@
   },
   "permissions": [
     "storage",
-    "activeTab",
-    "csrf-token"
+    "activeTab"
   ],
   "host_permissions": [
     "https://sunnah.com/*"
