@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Hadith Display",
+  "version": "1.0",
+  "description": "عرض حديث نبوي مع الترجمة عند فتح تاب جديد",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://sunnah.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

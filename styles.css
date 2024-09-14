@@ -1,0 +1,61 @@
+body {
+    font-family: 'KFGQPC Uthman Taha Naskh', 'KFGQPC Uthmanic Script HAFS', 'Scheherazade', 'Traditional Arabic', 'Trebuchet MS', 'Arial', 'Helvetica', sans-serif;
+    text-align: center;  /* محاذاة النص أفقياً */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* ارتفاع الصفحة لتغطية الشاشة بالكامل */
+    display: flex;
+    justify-content: center; /* توسيط المحتوى أفقياً */
+    align-items: center; /* توسيط المحتوى عمودياً */
+    background-size: cover; /* تغطية الخلفية للشاشة بالكامل */
+    background-position: center; /* توسيط الخلفية */
+    background-repeat: no-repeat; /* منع تكرار الخلفية */
+}
+
+.contenar {
+    display: grid;
+    justify-items: center;
+}
+
+
+
+ /* تنسيق النص الرئيسي في الأعلى */
+#title-container {
+    margin: 0 0 15px 0;
+}
+
+
+#main-title {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #f2f1ed9e;
+    border-radius: 20px;
+    padding: 10px;
+    border-bottom: 7px solid #372c04de;
+    
+}
+
+
+
+#hadith-container {
+    background-color: rgb(255 255 255 / 56%);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 60%;
+    text-align: center;
+    border-right: 25px solid #2d2811eb;
+    box-shadow: 0px 3px 15px 2px #000000;
+}
+
+#hadith-arabic {
+    font-size: 24px; /* حجم النص العربي */
+    margin-bottom: 20px;
+    font-weight: bold; /* خط عريض للنص العربي */
+    direction: rtl;
+}
+
+#hadith-english {
+    font-size: 18px; /* حجم النص الإنجليزي */
+    font-style: italic; /* إمالة للنص الإنجليزي */
+    direction: ltr;
+}
