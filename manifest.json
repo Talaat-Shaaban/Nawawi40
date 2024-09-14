@@ -9,7 +9,7 @@
   "permissions": [
     "storage",
     "activeTab",
-    "csrf-token": "B4_v33rpXvqbXHj2PTyIrmmbkKUSIDDyyVJ8wPdeVEhooqq9OawXj6wvN4xLT8L-BKqpyFRDCKSsOjCjm25iKg"
+    "csrf-token"
   ],
   "host_permissions": [
     "https://sunnah.com/*"
